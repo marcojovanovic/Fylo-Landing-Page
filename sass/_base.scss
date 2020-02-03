@@ -1,0 +1,67 @@
+@import 'variables';
+
+*,
+*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+$bp-largest:75em; //1200px
+$bp-large:68.75em; //1100px
+$bp-medium:56.25em; //900px
+$bp-small:37.5em; // 600px
+$bp-smallest:31.25em; // 500px
+$bp-mobileMini:24em;
+
+html{
+  font-size:58.5%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+  
+  @media only screen and(max-width:$bp-large){
+    
+    font-size:50%;
+  }
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  background-color: $main;
+  color:$white;
+}
+
+a{
+   text-decoration:none;
+   color:#444;
+   cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+
+img {
+  display:block;
+  width: 100%;
+  border-style: none;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+p{
+  font-size:1.6rem;
+}
+
+button,
+input { 
+  overflow: visible;
+}
+
+textarea {
+  overflow: auto;
+}
+

@@ -1,0 +1,38 @@
+// showcase section
+
+@import 'variables';
+
+.showcase {
+
+  margin: 0 auto;
+  background: url('/img/bg-curvy-desktop.svg')left bottom no-repeat;
+  background-color: $intro;
+
+
+
+  &-img {
+    max-width: 90%;
+    display: block;
+    cursor: pointer;
+    margin: auto !important;
+
+  }
+
+  &-info {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  &-btn {
+    padding: 1rem 4rem;
+    border-radius: 20px;
+    min-width: 20%;
+    background: linear-gradient(to right, $btnCyan, $btnBlue);
+
+  }
+}

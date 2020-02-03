@@ -1,0 +1,25 @@
+// header
+
+.header {
+
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $intro;
+
+  &-list-group {
+
+    display: flex;
+
+  }
+
+  &-list-item {
+    margin: 2.4rem;
+  }
+
+  &-link {
+    color: $white;
+    font-size: 1.7rem;
+  }
+}
